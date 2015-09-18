@@ -1,5 +1,12 @@
 # Socialization
 
+---
+This fork only merges [this
+commit](https://github.com/raneenhub/socialization/commit/a0be2870020332d9d79c476162282f7675faf09d),
+which adds capability to socialization gem with modules-namespaced models.
+
+---
+
 Socialization is a Ruby Gem that allows any ActiveRecord model to `Follow`, `Like` and/or `Mention` any other model. ActiveRecord or Redis can be used as a data store.
 
 The Follow feature is similar to Twitter's follow. For example, John follows Jane. Unlike Facebook's "friendship", Follow is a one-way concept. The fact that John follows Jane doesn't mean that Jane follows John.
